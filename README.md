@@ -3,7 +3,7 @@ This project aims to explore the relationship between packaging color and Custom
 # Key Features:
 CLV Calculation: CLV is estimated using a proxy model that incorporates Normalized_Price, Normalized_Rating, and Normalized_Review_Count. The model uses weighted factors (α, β, γ) to determine the influence of each attribute on CLV.
 Data Normalization: Product data (price, rating, review count) is normalized to a 0-1 scale to ensure comparability across different features.
-Heatmap Visualization: A heatmap is generated to visualize the correlations between product attributes and CLV. This helps in understanding how each factor contributes to customer value.
+Heatmap Visualization: A heatmap is generated to visualize the correlations between RGB and CLV. This helps in understanding how each factor contributes to customer value.
 # Technologies Used:
 Python,
 Pandas for data manipulation,
